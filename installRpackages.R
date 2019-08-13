@@ -53,7 +53,6 @@ installAndCheck("jsonlite")
 installAndCheck("REDCapR") 
 installAndCheck("aws.s3")
 # New stuff for https://github.com/FredHutch/hawnmtb
-installAndCheck("DT")
 installAndCheck("igraph")
 installAndCheck("intergraph")
 installAndCheck("ggnetwork")
