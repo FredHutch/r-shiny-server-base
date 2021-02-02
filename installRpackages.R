@@ -1,5 +1,5 @@
 installAndCheck <- function(pkg, dependencies=NA) {
-    install.packages(pkg, dependencies=dependencies)
+    install.packages(pkg, dependencies=dependencies, repos="https://cran.r-project.org")
     if (pkg %in% installed.packages()) {
         print(paste(pkg, "was installed successfully"))
     } else {
