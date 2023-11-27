@@ -1,4 +1,4 @@
-FROM rocker/shiny:4.3.2
+FROM rocker/shiny:4.3.0
 
 RUN apt-get update
 RUN apt-get -y install curl libxml2 libxml2-dev libcurl4-openssl-dev libssl-dev libglpk-dev
